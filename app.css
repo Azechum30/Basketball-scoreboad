@@ -1,0 +1,166 @@
+
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container{
+  width: 575px;
+  height: 385px;
+  background-color: #1B244A;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.home{
+  width: 260px;
+  height: 385px;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+.title{
+  margin-top: 68px;
+  width: 149px;
+  height: 36px;
+  line-height: 36px;
+  left: 85px;
+  font-size: 40px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 700px;
+  text-align: center;
+}
+
+#home-span{
+  border-bottom: 3px solid #FFFFFF;
+  font-family: 'Cursed Timer ULiL', sans-serif;
+}
+
+.score{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 155px;
+  height: 120px;
+  margin-bottom: 5px;
+  margin-top: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  /* left: 82px; */
+  border-radius: 5px;
+  background-color:#080001;
+  font-family: 'Cursed Timer ULiL', sans-serif;
+  font-size: 70px;
+  color: red;
+ 
+}
+
+.btn-container{
+ width: 60%;
+ margin-left: 2px;
+ display: flex;
+ justify-content: space-between;
+ margin-top : 15px;
+}
+
+.score-buttons{
+  width: 45px;
+  height: 45px;
+  top: 280px;
+  font-family: 'Cursed Timer ULiL', sans-serif;
+  font-size: 18px;
+  font-weight: 400px;
+  line-height: 28px;
+  border: 2px solid #9AABD8;
+  border-radius: 5px;
+  box-sizing: border-box;
+  text-align: center;
+  background-color:#1B244A;
+  color: #FFFFFF;
+
+}
+
+.guest{
+  width: 260px;
+  height: 385px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+#span{
+  color: #FFF;
+  border-bottom: 3px solid #FFF;
+  font-family: 'Cursed Timer ULiL', sans-serif;
+}
+
+.guest-btns{
+  color: #FFF;
+}
+
+#guest-score{
+  color: red;
+}
+
+#sport-type{
+  width: 575px;
+  height: 190px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0;
+  text-align: center;
+  background-color: #1B244A;
+  margin-top: 50px;
+  border-top: 2px solid #1B244A;
+  color: #FFF;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 18px;
+}
+
+#sport-type > h1{
+background-color: #FFFFFF;
+color:#1B244A;
+text-transform: uppercase;
+}
+
+#sport-type > #game-reset{
+  background-color: red;
+  color: #FFFFFF;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 20px;
+  font-size: 15px;
+  font-weight: bold;
+  font-family: 'Raleway', sans-serif;
+}
+
+#sport-type>#game-reset:hover{
+  background-color: darkred;
+}
+
+#sport-type > #timer{
+  width: 200px;
+  height: 30px;
+  background-color: #080001;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  padding: 5px 15px;
+  margin-bottom: 20px;
+  text-align: center;
+  color: red;
+  font-family: 'Cursed Timer ULiL', sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+}

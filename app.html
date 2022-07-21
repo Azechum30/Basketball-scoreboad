@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link
+      href="http://fonts.cdnfonts.com/css/cursed-timer-ulil"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="app.css" />
+    <title>Basketball Scoreboard</title>
+  </head>
+  <body>
+    <div id="sport-type">
+      <h1>Basketball Scoreboard</h1>
+      <div id="timer"></div>
+      <button id="game-reset">RESET SCORE</button>
+    </div>
+    <div class="container">
+      <div class="home">
+        <h2 class="title"><span id="home-span">HOME</span></h2>
+        <div class="score" id="home-score"></div>
+        <div class="btn-container">
+          <button class="score-buttons" id="home-btn-1">+1</button>
+          <button class="score-buttons" id="home-btn-2">+2</button>
+          <button class="score-buttons" id="home-btn-3">+3</button>
+        </div>
+      </div>
+      <div class="guest">
+        <h1 class="title"><span id="span">GUEST</span></h1>
+        <div class="score" id="guest-score"></div>
+        <div class="btn-container">
+          <button class="score-buttons guest-btns" id="guest-btn-1">+1</button>
+          <button class="score-buttons guest-btns" id="guest-btn-2">+2</button>
+          <button class="score-buttons guest-btns" id="guest-btn-3">+3</button>
+        </div>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
