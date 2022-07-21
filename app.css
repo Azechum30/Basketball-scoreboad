@@ -3,8 +3,9 @@ body{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-color:#9AABD8;
+  background-color:#0c2569;
   background-blend-mode: overlay;
+  background-size: cover;
   background-image: url('https://images.unsplash.com/photo-1577471488278-16eec37ffcc2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8YmFza2V0YmFsbHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60')
 }
 
